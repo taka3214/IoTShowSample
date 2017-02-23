@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: IoTShowSample
+  host: IoTShowSample
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - MaintenanceTest-iotf-service
+  - ClearDB MySQL Database-ry
+  - Compose for MySQL-2a
